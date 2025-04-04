@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        h1 {
+            padding: 2rem;
+            background-color: white;
+            text-align: center;   
+        }
+        span {
+            color: red;
+        }
+        body {
+            /* margin: 0; */
+            background-color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+            gap: 1rem;
+            align-items: stretch;
+        }
+        .photo {
+            width: 100%;
+            object-fit: cover;
+            border: 1px solid white;
+        }
+        .wide {
+            grid-column: span 2;
+        }
+        .tall {
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Waifu Nabe <span>&#10084;</span></h1>
+    </header>
+    <div class="gallery">
+        <!-- <img src="img/GalaxyWallpaper (1).jpg" alt="" class="photo">
+        <img src="img/GalaxyWallpaper (2).jpg" alt="" class="photo">
+        <img src="img/GalaxyWallpaper (3).jpg" alt="" class="photo wide">
+        <img src="img/GalaxyWallpaper (4).jpg" alt="" class="photo">
+        <img src="img/GalaxyWallpaper (5).jpg" alt="" class="photo">
+        <img src="img/GalaxyWallpaper (6).jpg" alt="" class="photo tall">
+        <img src="img/GalaxyWallpaper (7).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (1).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (2).jpg" alt="" class="photo wide tall">
+        <img src="img/NatureWallpaper (3).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (4).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (5).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (6).jpg" alt="" class="photo tall">
+        <img src="img/NatureWallpaper (7).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (8).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (9).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (10).jpg" alt="" class="photo wide tall">
+        <img src="img/NatureWallpaper (11).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (12).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (13).jpg" alt="" class="photo wide">
+        <img src="img/NatureWallpaper (14).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (15).jpg" alt="" class="photo">
+        <img src="img/NatureWallpaper (16).jpg" alt="" class="photo">
+        <img src="img/springsummerautmnwinter.jpg" alt="" class="photo wide tall"> -->
+        <img src="img/Nabe-1.png" alt="" class="photo">
+        <img src="img/Nabe-2.png" alt="" class="photo">
+        <img src="img/Nabe-3.png" alt="" class="photo">
+        <img src="img/Nabe-4.png" alt="" class="photo">
+        <img src="img/Nabe-5.png" alt="" class="photo wide tall">
+        <img src="img/Nabe-6.png" alt="" class="photo">
+        <img src="img/Nabe-7.png" alt="" class="photo">
+        <img src="img/Nabe-8.png" alt="" class="photo tall">
+        <img src="img/Nabe-9.png" alt="" class="photo">
+        <img src="img/Nabe-10.png" alt="" class="photo">
+        <img src="img/Nabe-11.png" alt="" class="photo">
+        <img src="img/Nabe-12.png" alt="" class="photo">
+        <img src="img/Nabe-13.png" alt="" class="photo wide tall">
+        <img src="img/Nabe-14.png" alt="" class="photo">
+        <img src="img/Nabe-15.png" alt="" class="photo">
+        <img src="img/Nabe-16.png" alt="" class="photo wide">
+        <img src="img/Nabe-17.png" alt="" class="photo">
+        
+    </div>
+</body>
+</html>
